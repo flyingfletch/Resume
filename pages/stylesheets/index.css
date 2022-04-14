@@ -1,0 +1,25 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+body {
+    background-color: #6dc066;
+}
+img {
+    border-radius: 10%;
+}
+nav {
+    background-color: #c4e5c1;
+    border-radius: 2px;
+}
+section {
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+h1, h2 {
+    background-color: #20391e;
+    color: #eeeeee;
+    border-radius: 0 0 90% 90%;
+}
