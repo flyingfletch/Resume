@@ -8,17 +8,15 @@
     </head>
     <body>
         <header>
-            <h1>Jessica Fletcher</h1>
+            <h1>Jessica<br>Fletcher</h1>
+            <nav>
+                        <a href="index.html" title="Resume Home">Home</a>
+                        <a href="skills.html" title="Skills">Skills</a>
+                        <a href="portfolio.html" title="Resume Portfolio">Portfolio</a>
+                        <a href="about.html" title="About Jessica">About</a>
+            </nav>
+            <img src="../images/headshot.jpg" alt="Headshot of Jessica Fletcher">
         </header>
-        <nav>
-            <a href="index.html" title="Resume Home">Home</a>
-            <a href="skills.html" title="Skills">Skills</a>
-            <a href="portfolio.html" title="Resume Portfolio">Portfolio</a>
-            <a href="about.html" title="About Jessica">About</a>
-        </nav>
-        <aside>
-            <img src="../images/headshot.jpg" alt="Headshot of Jessica Fletcher" height="300">
-        </aside>
         <article>
             <section>
                 <h2>Download Resume</h2>
@@ -27,27 +25,51 @@
             <section>
                 <h2>Contact Jessica</h2>
                     <form action="http://form-test.slccwebdev.com/form-success.php" method="get">
-                        <label for="name">Name</label><br>
-                            <input type="text" id="name" name="name" placeholder="Jane Doe"><br>
-                        <label for="phone">Phone</label><br>
-                            <input type="tel" id="phone" name="phone" placeholder="888-123-4567"><br>
-                        <label for="text">Text</label><br>
-                            <input type="tel" id="text" name="text" placeholder="888-123-4567"><br>
-                        <label for="email">Email</label><br>
-                            <input type="email" id="email" name="email" placeholder="janedoe@email.com" required><br>
-                        <p>Are you a possible employer/contracter?</p>
-                            <input type="radio" name="employer" id="yes">
-                                <label for="yes">Yes</label>
-                            <input type="radio" name="employer" id="no">
-                                <label for="no">No</label><br><br>
-                        <label for="comments">Comments</label><br>
-                            <textarea name="comments" id="comments" cols="60" rows="10" placeholder="Leave a question or comment..."></textarea><br>
-                        <button>Submit</button>
+                        <div>
+                            <label for="name" class="form-label">Name</label><br>
+                                <input type="text" id="name" name="name" placeholder="Jane Doe">
+                        </div>
+                        <div>
+                            <label for="phone" class="form-label">Phone</label><br>
+                                <input type="tel" id="phone" name="phone" placeholder="888-123-4567">
+                        </div>
+                        <div>
+                            <label for="text" class="form-label">Text</label><br>
+                                <input type="tel" id="text" name="text" placeholder="888-123-4567">
+                        </div>
+                        <div>
+                            <label for="email" class="form-label">Email</label><br>
+                                <input type="email" id="email" name="email" placeholder="janedoe@email.com" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label class="form-label">Are you a possible employer/contracter?</label><br>
+                                <input type="radio" name="employer" id="yes">
+                                    <label for="yes">Yes</label>
+                                <input type="radio" name="employer" id="no">
+                                    <label for="no">No</label>
+                        </div>
+                        <br>
+                        <div>
+                            <label class="form-label">May I contact you?</label><br>
+                                <input type="radio" name="contact" id="yes">
+                                    <label for="yes">Yes</label>
+                                <input type="radio" name="contact" id="no">
+                                    <label for="no">No</label>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="comments" class="form-label">Comments</label><br>
+                                <textarea name="comments" id="comments" cols="50%" rows="10%" placeholder="Leave a question or comment..."></textarea>
+                        </div>
+                        <div>
+                            <button>Submit</button>
+                        </div>
                     </form>
             </section>
             <section>
                 <h2>References</h2>
-                    <table>
+                    <table class="references">
                         <tr>
                             <th>Name</th>
                             <th>Position</th>
