@@ -48,7 +48,6 @@ h2 {
     background-color: #20391e;
     color: #eeeeee;
     border-top-right-radius: 2em;
-    font-size: 4vw;
     padding-left: 2%;
 }
 p, dl {
@@ -63,8 +62,17 @@ form div {
     border-top-right-radius: 1em;
     border-style: groove;
 }
+textarea {
+    width: 75vw;
+    height: 20vw;
+    border-style: dashed;
+    border-top-right-radius: 1em;
+}
 button {
-    font-size: 1.25em;
+    font-size: 1em;
+    border-radius: 1em;
+    background-color: #20391e;
+    color:#eeeeee;
 }
 table {
     width: 100%;
@@ -77,10 +85,11 @@ table img {
     width: 20vw;
     height: auto;
 }
+.references {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
 .references th {
     text-decoration: underline;
-}
-.references td {
-    font-size: 1.5vw;
-
 }
