@@ -3,12 +3,17 @@
 }
 body {
     background-color: #6dc066;
+    background-image: url(../../images/rainbowbackground.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 header {
     height: 10%;
     margin-top: 2%;
 }
-h1, .footer {
+h1, .header {
     float: right;
     min-width: 70%;
     text-align: center;
@@ -17,8 +22,8 @@ h1, .footer {
 h1 {
     font-size: 6vw;
     border-top-right-radius: 2em;
-    background-color: #20391e;
-    color: #eeeeee;
+    background-color: #c4e5c1;
+    color: #20391e;
 }
 nav {
     background-color: #c4e5c1;
@@ -45,8 +50,8 @@ article {
     margin-bottom: 2%;
 }
 h2 {
-    background-color: #20391e;
-    color: #eeeeee;
+    background-color: #c4e5c1;
+    color: #20391e;
     border-top-right-radius: 2em;
     padding-left: 2%;
 }
@@ -55,6 +60,10 @@ p, dl {
 }
 form div {
     padding: 1% 1% 1% 1%;
+}
+.no-style-list {
+    list-style: none;
+    color: black;
 }
 .form-label {
     background-color: #c4e5c1;
