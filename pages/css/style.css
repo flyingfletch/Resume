@@ -2,8 +2,8 @@
     font-family: 'Courier New', Courier, monospace;
 }
 body {
-    background-color: #6dc066;
-    background-image: url(../../images/rainbowbackground.webp);
+    background-color: #eeeeee;
+    background-image: url(../../images/rainbowbackground.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,17 +16,18 @@ header {
 h1, .header {
     float: right;
     min-width: 70%;
+    max-width: 60px;
     text-align: center;
     margin-right: 2%;
 }
 h1 {
     font-size: 6vw;
     border-top-right-radius: 2em;
-    background-color: #c4e5c1;
+    background-color: #8ad684;
     color: #20391e;
 }
 nav {
-    background-color: #c4e5c1;
+    background-color: #8ad684;
     border-radius: 2em;
     font-size: 3vw;
     color: #20391e;
@@ -50,7 +51,7 @@ article {
     margin-bottom: 2%;
 }
 h2 {
-    background-color: #c4e5c1;
+    background-color: #8ad684;
     color: #20391e;
     border-top-right-radius: 2em;
     padding-left: 2%;
@@ -109,4 +110,9 @@ table img {
 }
 footer {
     text-align: center;
+    position: static;
+    width: 100%;
+    right: 20vw;
+    bottom: 1vw;
+    left: 20vw;
 }
