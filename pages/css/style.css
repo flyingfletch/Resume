@@ -3,7 +3,7 @@
 }
 body {
     background-color: #eeeeee;
-    background-image: url(../../images/rainbowbackground.jpg);
+    background-image: url("../../images/rainbowbackground.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,11 +23,24 @@ h1, .header {
 h1 {
     font-size: 6vw;
     border-top-right-radius: 2em;
-    background-color: #8ad684;
+    background-color: #b4fab0;
     color: #20391e;
 }
+:link {
+    color: #20391e;
+    text-decoration: none;
+}
+:visited {
+    color: #20391e;
+}
+nav :hover {
+    color: #FF47D1;
+}
+nav :active {
+    color: #eeeeee;
+}
 nav {
-    background-color: #8ad684;
+    background-color: #b4fab0;
     border-radius: 2em;
     font-size: 3vw;
     color: #20391e;
@@ -51,7 +64,7 @@ article {
     margin-bottom: 2%;
 }
 h2 {
-    background-color: #8ad684;
+    background-color: #b4fab0;
     color: #20391e;
     border-top-right-radius: 2em;
     padding-left: 2%;
@@ -62,8 +75,8 @@ p, dl {
 form div {
     padding: 1% 1% 1% 1%;
 }
-.no-style-list {
-    list-style: none;
+.square-style-list {
+    list-style:square;
     color: black;
 }
 .form-label {
