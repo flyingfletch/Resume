@@ -11,10 +11,8 @@ border-radius: 30vw;
 .sticky-section {
     overflow: hidden;
     background-color: #f58fc4;
-    margin-bottom: 50vw;
     width: 100%;
     color: black;
-    position:-webkit-sticky;
     position: sticky;
     top: 0px;
 }
